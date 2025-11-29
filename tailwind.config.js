@@ -1,6 +1,6 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: ['class', '[data-mode="dark"]'],
   theme: {
     fontFamily: {
         sans: ['Montserrat', 'sans-serif'],

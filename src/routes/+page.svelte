@@ -1,6 +1,5 @@
 <script lang="ts">
-	import MovingTitle from "../MovingTitle.svelte";
-	import Header from "../Header.svelte"
+	import MovingTitle from "./MovingTitle.svelte";
 </script>
 
 <svelte:head>
