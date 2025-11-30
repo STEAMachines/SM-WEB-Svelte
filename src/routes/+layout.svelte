@@ -13,6 +13,7 @@
 	</main>
 
 	<footer>
-		
+		<p class="mx-auto self-center bg-amber-600 dark:bg-blue-500">Assets Property of STEAMachines #15242</p>
+		<p class="mx-auto self-center bg-amber-600 dark:bg-blue-500">FOSS code made with Sveltekit, Storybook, PostCSS, Tailwind</p>
 	</footer>
 </div>
