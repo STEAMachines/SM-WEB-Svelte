@@ -15,7 +15,7 @@
     } 
 </script>
 
-<header class="header flex flex-row max-h-30 p-5 rounded-b-lg text-black dark:text-gray-600 bg-b dark:bg-c">
+<header class="header flex flex-row max-h-30 p-5 rounded-b-lg static     text-black dark:text-gray-600 bg-b dark:bg-c">
         <div class="my-auto max-h-20">
             <a href="/" class="mx-auto"><img src="/SM-Logo.png" alt="Logo" class="h-20 w-20 object-scale-down"></a>
         </div>
