@@ -4,3 +4,10 @@
 @plugin '@tailwindcss/typography';
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-a: #E8E3DF;
+    --color-b: #FF7930;
+    --color-c: #455C88;
+    --color-d: #000000;
+};

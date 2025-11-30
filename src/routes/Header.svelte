@@ -2,23 +2,20 @@
     import { base } from '$app/paths';
 
     let mode = $state(`/light-mode-icon.png`);
-    let bg = $state('bg-amber-600');
     let props = $props();
 
     function toggleDarkMode() {
         if (mode === `/light-mode-icon.png`) {
             mode = `/dark-mode-icon.png`;
-            bg = 'bg-blue-600'
             document.documentElement.classList.add('dark');
         } else {
             mode = `/light-mode-icon.png`;
-            bg = 'bg-amber-600'
             document.documentElement.classList.remove('dark');
         }
     } 
 </script>
 
-<header class="header {bg} flex flex-row max-h-30 p-5">
+<header class="header flex flex-row max-h-30 p-5 rounded-b-lg text-black dark:text-gray-600 bg-b dark:bg-c">
         <div class="my-auto max-h-20">
             <a href="/" class="mx-auto"><img src="/SM-Logo.png" alt="Logo" class="h-20 w-20 object-scale-down"></a>
         </div>

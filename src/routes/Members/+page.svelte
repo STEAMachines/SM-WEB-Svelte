@@ -1,5 +1,5 @@
 <script>
- let cardClasses = 'bg-amber-600 rounded-lg shadow-lg p-4 m-4 max-w-lg bg-amber-600 dark:bg-blue-500 hover:scale-105 transition-transform duration-100'
+ let cardClasses = 'bg-amber-600 rounded-lg shadow-lg p-4 m-4 max-w-lg bg-b dark:bg-c hover:scale-105 transition-transform duration-100'
  let innerClasses = ''
 </script>
 
