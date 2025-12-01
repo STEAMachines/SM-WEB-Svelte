@@ -20,10 +20,10 @@
             <a href="/" class="mx-auto"><img src="/SM-Logo.png" alt="Logo" class="h-20 w-20 object-scale-down"></a>
         </div>
         <div class="nav-links flex flex-row gap-8 p-4 mx-auto my-0 max-h-20">
-            <a aria-label="About Us" href="/About" class="mx-auto text-xl text-white hover:underline-offset-4">About Us</a>
-            <a aria-label="Members" href="/Members" class="mx-auto text-xl text-white hover:underline-offset-4">Members</a>
-            <a aria-label="Stats" href="/Stats" class="mx-auto text-xl text-white hover:underline-offset-4">Stats</a>
-            <a aria-label="Contact Us" href="/Contact" class="mx-auto text-xl text-white hover:underline-offset-4">Contact Us</a>
+            <a aria-label="About Us" href="/about" class="mx-auto text-xl text-white hover:underline-offset-4">About Us</a>
+            <a aria-label="Members" href="/members" class="mx-auto text-xl text-white hover:underline-offset-4">Members</a>
+            <a aria-label="Stats" href="/stats" class="mx-auto text-xl text-white hover:underline-offset-4">Stats</a>
+            <a aria-label="Contact Us" href="/contact" class="mx-auto text-xl text-white hover:underline-offset-4">Contact Us</a>
         </div>
         <div class="my-auto max-h-20">
             <button onclick={toggleDarkMode} aria-label="Toggle Dark Mode" class="mx-auto">
