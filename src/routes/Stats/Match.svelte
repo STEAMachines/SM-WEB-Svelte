@@ -2,15 +2,21 @@
     let home = "Home Team Stats";
     let away = "Away Team Stats";
     let awayTeam = "Opponent";
+    let data;
 </script>
 
 <div class="flex flex-row rounded-xl max-w-2xl static self-center mx-auto my-auto gap-4 bg-b dark:bg-c">
-    <div class="home">
-        <h2>{home}</h2>
-        <p class="">STEAMachines</p>
-    </div>
-    <div class="away">
-        <h2>{away}</h2>
-        <p class="">{awayTeam}</p>
-    </div>
+  <h1>Match Stats</h1>
+  {#if data.matches}
+    {#each data.matches as match}
+      <div>
+        <h3>Match {match.matchNumber}</h3>
+        <p>Blue: {match.blueTeams.join(', ')} - {match.blueTotalScore}</p>
+        <p>Red: {match.redTeams.join(', ')} - {match.redTotalScore}</p>
+        <p><strong>Winner: {match.winner}</strong></p>
+      </div>
+    {/each}
+  {:else}
+    <p>Loading matches...</p>
+  {/if}
 </div>
