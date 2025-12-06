@@ -26,7 +26,10 @@
         </div>
     </div>
     <div id="TeamHistory">
-
+        <h1>Team History</h1>
+        <p>
+            
+        </p>
     </div>
 </div>
 

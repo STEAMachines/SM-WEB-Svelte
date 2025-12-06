@@ -11,3 +11,5 @@
     --color-c: #455C88;
     --color-d: #000000;
 };
+
+@font-face {  font-family: Varsity;  font-style: normal;  font-weight: 200 700;  font-display: swap;  src: url("/fonts/varsity_regular.ttf") format("truetype");}
