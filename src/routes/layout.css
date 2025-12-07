@@ -12,4 +12,5 @@
     --color-d: #000000;
 };
 
-@font-face {  font-family: Varsity;  font-style: normal;  font-weight: 200 700;  font-display: swap;  src: url("/fonts/varsity_regular.ttf") format("truetype");}
+@font-face {  font-family: Varsity;  font-style: normal;  font-weight: 200 700;  font-display: swap;  src: url("/fonts/varsity_regular.woff2") format("woff2");}
+@font-face {  font-family: VarsityTeam;  font-style: normal;  font-weight: 200 700;  font-display: swap;  src: url("/fonts/VarsityTeam-Bold.otf") format("opentype");}

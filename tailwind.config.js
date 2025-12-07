@@ -1,15 +1,21 @@
-module.exports = {
-  purge: [],
-  darkMode: ['class', '[data-mode="dark"]'],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    './src/**/*.{html,js,svelte,ts}',
+  ],
+  darkMode: 'class',
   theme: {
     fontFamily: {
-        sans: ['Montserrat', 'sans-serif'],
+      sans: ['Montserrat', 'sans-serif'],
     },
-    extend: {},
-  },
-  variants: {
-    extend: {},
+    extend: {
+      colors: {
+        a: 'var(--color-a)',
+        b: 'var(--color-b)',
+        c: 'var(--color-c)',
+        d: 'var(--color-d)',
+      }
+    },
   },
   plugins: [],
-  darkMode: 'class',
 }
