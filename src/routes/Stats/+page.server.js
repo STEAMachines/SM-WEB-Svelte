@@ -1,7 +1,10 @@
 import { FTC_API } from '$env/static/private';
+import { onMount } from 'svelte';
 
 let season = '2025';
 let eventCode = 'IDCMP';
+
+onMount(getData)
 
 async function getData() {
   console.log('FTC_API:', FTC_API);

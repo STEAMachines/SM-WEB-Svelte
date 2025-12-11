@@ -6,5 +6,5 @@
     <title>STEAMachines - Stats</title>
 </svelte:head>
 
-<div class="flex flex-col gap-4"><Match/></div>
+<div class="flex flex-col gap-4">Data not Available</div>
 
