@@ -9,7 +9,7 @@
     <title>STEAMachines - Members</title>
 </svelte:head>
 
-<section class="flex flex-row">
+<section class="flex flex-col md:flex-row">
 <div id="left" class="left-0">
         <div class="card {cardClasses} bg-[url('/akhdan-b.webp')] bg-cover bg-center">
             <img src="/akhdan.JPG" alt="" class="{imgClasses}">
@@ -47,7 +47,7 @@
             </div>
         </div>
 </div>
-<div id="right" class="left-1/2">
+<div id="right" class="left-0 md:left-1/2">
         <div class="card {cardClasses} bg-[url('/alghar-b.jpeg')] bg-cover bg-top">
             <img src="/alghar.JPG" alt="" class="{imgClasses}">
             <div class="inner {innerClasses}">
