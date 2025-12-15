@@ -11,6 +11,10 @@
 <Carousel/>
 
 
-
-
+<div class="event-box">
+	<div class="event-title">
+		<h1>Upcoming Events</h1>
+		<p>Main Activities</p>
+	</div>
+</div>
 

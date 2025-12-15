@@ -21,7 +21,7 @@
 	<div class="h-auto w-16 my-auto">
 		<!-- or h-20, whatever you like -->
 		<a href="/" class="flex items-center justify-center center h-12 w-12 shrink-0">
-			<img src="/SM-Logo.png" alt="Logo" class="max-w-full max-h-full object-contain" />
+			<img src="/SM-Logo.png" alt="Logo" class="dark:invert max-w-full max-h-full object-contain" />
 		</a>
 	</div>
 	<div class="nav-links flex flex-row gap-8 p-1 mx-auto my-auto max-h-20 rounded-lg bg-white text-black dark:bg-black dark:text-white">
