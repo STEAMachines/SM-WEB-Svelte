@@ -26,7 +26,7 @@
 	</div>
 	<div class="nav-links flex flex-row gap-8 p-1 mx-auto my-auto max-h-20 rounded-lg bg-white text-black dark:bg-black dark:text-white">
 		<a
-			aria-label="About Us"
+			aria-label="About Us"	
 			href="/about"
 			class="mx-auto text-xl hover:underline-offset-4">About Us</a
 		>
@@ -35,9 +35,9 @@
 			href="/members"
 			class="mx-auto text-xl hover:underline-offset-4">Members</a
 		>
-		<a aria-label="Stats" href="/stats" class="mx-auto text-xl hover:underline-offset-4"
+		<!-- <a aria-label="Stats" href="/stats" class="mx-auto text-xl hover:underline-offset-4"
 			>Stats</a
-		>
+		> -->
 		<a
 			aria-label="Contact Us"
 			href="/contact"
