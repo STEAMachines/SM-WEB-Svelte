@@ -6,7 +6,7 @@
 </script>
 
 <div class="app min-h-svh bg-a text-white dark:bg-d dark:text-gray-300">
-	<Header />
+	<Header/>
 
 	<main class="min-h-svh">
 		{@render children()}
@@ -14,7 +14,7 @@
 
 	<footer class="w-full bg-[#1a1a1a] text-white pt-10 flex flex-col items-center">
 		
-		<div class="w-full ml-150 max-w-5xl px-8 grid grid-cols-1 md:grid-cols-4 gap-5 mb-10">
+		<div class="w-full ml-150 max-w-5xl px-8 grid grid-cols-1 md:grid-cols-4 gap-5 mb-12">
 			
 			<div class="flex flex-col gap-3">
 				<a href="/about" class="font-bold hover:text-blue-400">About Us</a>
