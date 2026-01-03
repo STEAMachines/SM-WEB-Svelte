@@ -8,7 +8,7 @@
 <div class="relative w-full flex flex-col text-black">
     <div id="leadImage" class="flex flex-col w-full h-svh">
         <img src="/team.jpg" alt="Team" class="w-full h-auto object-cover mask-b-from-85% mask-b-to-90% z-0 static">
-        <div class="bg-black opacity-40 absolute inset-0 z-10 h-3/7"></div>
+        <div class="bg-black opacity-50 absolute inset-0 z-10 h-3/7"></div>
         <h1 class="absolute text-white p-1 text-6xl font-semibold z-10 top-25 left-10 tracking-tight">About <br> STEAMachines</h1>
         <p class="text-right absolute text-white p-1 text-xl font-semibold z-10 top-25 right-10 tracking-tighter">STEAMachines was founded in September 2021. 
 Our team consists of all 11 male students and 1 team coach. STEAMachines is the first team created by <br> Techno Natura Jogja because previously all teams were 
