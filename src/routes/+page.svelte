@@ -28,6 +28,15 @@
             
             <div class="mb-20 relative">
                 <div class="absolute -left-[51px] top-1 w-5 h-5 bg-c rounded-full border-[4px] border-[#1a1a1a] shadow-[0_0_15px_rgba(69,92,136,0.6)]"></div>
+                <p class="text-white font-bold text-2xl">SDN Ngemplak 1</p>
+            </div>
+            <div class="mb-20 relative">
+                <div class="absolute -left-[51px] top-1 w-5 h-5 bg-c rounded-full border-[4px] border-[#1a1a1a] shadow-[0_0_15px_rgba(69,92,136,0.6)]"></div>
+                <p class="text-white font-bold text-2xl">SDN Koroulon 1</p>
+            </div>
+            <div class="mb-20 relative">
+                <div class="absolute -left-[51px] top-1 w-5 h-5 bg-c rounded-full border-[4px] border-[#1a1a1a] shadow-[0_0_15px_rgba(69,92,136,0.6)]"></div>
+                <p class="text-white font-bold text-2xl">SDN Ngemplak 4</p>
             </div>
         </div>
     </div>

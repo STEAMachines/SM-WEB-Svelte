@@ -13,6 +13,7 @@
 			document.documentElement.classList.remove('dark');
 		}
 	}
+
 </script>
 
 <header
@@ -26,7 +27,7 @@
                 src="/SM-Logo-black.png" 
                 alt="Logo" 
                 class="dark:invert max-w-full max-h-full object-contain transition-transform duration-300 hover:scale-110" 
-            />
+            />	
         </a>
     </div>
 	<div class="nav-links flex flex-row gap-8 p-1 mx-auto my-auto max-h-20 rounded-lg bg-white text-black dark:bg-black dark:text-white">
@@ -62,9 +63,9 @@
             </div>
 		</div>
 	</div>
-	<!-- <div class="my-auto max-h-20">
+	<div class="my-auto max-h-20">
 		<button onclick={toggleDarkMode} aria-label="Toggle Dark Mode" class="mx-auto">
 			<img src={mode} alt="Toggle Dark Mode" class="h-10 w-10 object-scale-down" />
 		</button>
-	</div> -->
+	</div>
 </header>

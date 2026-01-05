@@ -8,7 +8,7 @@
 <div class="app min-h-svh bg-a text-white dark:bg-d dark:text-gray-300">
 	<Header/>
 
-	<main class="min-h-svh">
+	<main class="min-h-svh dark:text-gray-200">
 		{@render children()}
 	</main>
 
