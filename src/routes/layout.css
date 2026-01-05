@@ -14,3 +14,9 @@
 
 @font-face {  font-family: Varsity;  font-style: normal;  font-weight: 200 700;  font-display: swap;  src: url("/fonts/varsity_regular.woff2") format("woff2");}
 @font-face {  font-family: VarsityTeam;  font-style: normal;  font-weight: 200 700;  font-display: swap;  src: url("/fonts/VarsityTeam-Bold.otf") format("opentype");}
+
+@layer base {
+  a {
+    @apply hover:dark:text-white hover:text-gray-300 hover:underline decoration-orange-500 dark:decoration-blue-400 visited:dark:text-b;
+  }
+}
