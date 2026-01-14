@@ -29,7 +29,7 @@
         <section class="form-section">
             <h2>DIRECT MESSAGES</h2>
             
-            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" on:submit={handleSubmit}>
+            <form action="https://formspree.io/f/mjggkbvz" method="POST" on:submit={handleSubmit}>
             <div class="input-group">
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="name" bind:value={name} placeholder="Enter your Name" required />
