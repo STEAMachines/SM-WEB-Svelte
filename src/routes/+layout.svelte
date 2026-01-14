@@ -19,7 +19,7 @@
 			<div class="flex flex-col gap-3">
 				<a href="/about" class="font-bold hover:text-blue-400">About Us</a>
 				<a href="/members" class="font-bold hover:text-blue-400">Members</a>
-				<a href="/resources" class="font-bold hover:text-blue-400">Open Resources</a>
+				<!-- <a href="/resources" class="font-bold hover:text-blue-400">Open Resources</a> -->
 				<a href="/contact" class="font-bold hover:text-blue-400">Contact Us</a>
 			</div>
 			<div class="flex justify-start ">
