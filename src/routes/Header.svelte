@@ -26,7 +26,7 @@
             <img 
                 src="/SM-Logo-black.png" 
                 alt="Logo" 
-                class="dark:invert max-w-full max-h-full object-contain transition-transform duration-300 hover:scale-110" 
+                class="max-w-full max-h-full object-contain transition-transform duration-300 hover:scale-110" 
             />	
         </a>
     </div>
@@ -58,7 +58,7 @@
 			</button>
 			<div class="absolute left-0 mt-2 w-48 bg-white dark:bg-zinc-800 rounded-xl shadow-xl border border-gray-100 dark:border-zinc-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                 <div class="py-2">
-                    <a href="https://drive.google.com/drive/u/0/folders/1Jknb04lVlZo5ihBr6k8FJX0nj1ZXGUY9" class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700">Portfolio</a>
+                    <a href="https://drive.google.com/drive/u/0/folders/1Jknb04lVlZo5ihBr6k8FJX0nj1ZXGUY9" target="_blank" class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700">Portfolio</a>
                 </div>
             </div>
 		</div>
