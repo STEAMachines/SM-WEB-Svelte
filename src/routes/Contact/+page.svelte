@@ -13,7 +13,6 @@
 	<title>STEAMachines - Contact Us</title>
 </svelte:head>
 
-<<<<<<< HEAD
 <div class="top-lvh flex flex-row w-4xl self-center mx-auto gap-4 my-10">
     <!-- <div id="Info" class="flex flex-col text-2xl bg-b dark:bg-c rounded-lg justify bg-center gap-4 p-4">
     	<div class="flex flex-row gap-4"><img src="/whatsapp.png" alt="CP 1 Raihan" class="w-12 h-12 dark:invert">Raihan<a target="_blank" href="https://wa.me/628122732347">+62 812-2732-347</a></div>
@@ -56,8 +55,6 @@
     </div>
 </div>
 
-=======
->>>>>>> 8445f9b59062b0ead0462b67a8620a3cbe527fb6
 <style>
   .contact-container {
     margin: 40px auto;
