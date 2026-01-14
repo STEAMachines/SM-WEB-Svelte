@@ -22,7 +22,7 @@ it means the machines that are in and control the robots that we make.
     </div>
 
     <div class="p-6 md:p-10 w-full font-sans space-y-8">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-6">
+        <div class="ma  x-w-6xl mx-auto flex flex-col md:flex-row gap-6">
             
             <div class="bg-white border-[4px] border-b rounded-[2rem] p-4 flex items-center justify-center w-full md:w-1/4 aspect-square shadow-lg">
                 <img src="trex-faces.png" alt="Team Logo" class="w-full h-auto object-contain"/>
