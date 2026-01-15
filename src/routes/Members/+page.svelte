@@ -1,5 +1,5 @@
 <script>
- let cardClasses = 'bg-amber-600 rounded-lg shadow-lg p-4 m-4 max-w-3xl bg-b flex flex-row gap-4 min-w- dark:bg-c hover:scale-105 transition-transform duration-100'
+ let cardClasses = 'bg-amber-600 rounded-lg shadow-lg w-full p-4 m-4 bg-b flex flex-row gap-4 min-w- dark:bg-c hover:scale-105 transition-transform duration-100'
  let innerClasses = 'bg-b rounded-lg p-2 dark:bg-c'
  let imgClasses = 'w-30 h-45 rounded-lg'
  let personNameClasses = 'text-2xl font-bold mb-2'
@@ -10,7 +10,7 @@
 </svelte:head>
 
 <section class="flex flex-col md:flex-row">
-<div id="left" class="left-0">
+<div id="left" class="w-full lg:w-1/2 p-5">
         <div class="card {cardClasses} bg-[url('/akhdan-b.webp')] bg-cover bg-center">
             <img src="/akhdan.JPG" alt="" class="{imgClasses}">
             <div class="inner {innerClasses}">
@@ -24,7 +24,7 @@
             <div class="inner {innerClasses}">
                 <h2 class="{personNameClasses}">Ihsan</h2>
                 <p><b>Vice Leader, Programmers</b></p>
-                <p></p>
+                <p>I will rule the world! Mwahahaha! But in the meantime, I'll try my best to help the team.</p>
             </div>
         </div>
         <div class="card {cardClasses} bg-[url('/pitu-b.webp')] bg-cover bg-center">
@@ -52,7 +52,7 @@
             </div>
         </div>
 </div>
-<div id="right" class="left-0 md:left-1/2">
+<div id="right" class="w-full lg:w-1/2 p-5 relative">
         <div class="card {cardClasses} bg-[url('/alghar-b.jpeg')] bg-cover bg-top">
             <img src="/alghar.JPG" alt="" class="{imgClasses}">
             <div class="inner {innerClasses}">
