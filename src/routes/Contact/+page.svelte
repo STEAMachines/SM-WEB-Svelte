@@ -1,4 +1,8 @@
 <script>
+  let name = "";
+  let email = "";
+  let message = "";
+  let status = "";
 </script>
 
 <svelte:head>
@@ -19,7 +23,35 @@
 
 
     </div>
-    <div id="Email Form">
+    <div class="flex-1 bg-white dark:bg-zinc-900 p-8 rounded-xl shadow-md border border-gray-100 dark:border-zinc-800">
+      <h2 class="text-2xl font-bold mb-6 text-center text-gray-800 dark:text-white uppercase tracking-wider">Direct Messages</h2>
+      
+      <form action="https://formspree.io/f/mjggkbvz" method="POST" on:submit={handleSubmit} class="space-y-4">
+        <div class="flex flex-col gap-1">
+          <label for="name" class="font-semibold text-gray-700 dark:text-gray-300">Full Name</label>
+          <input type="text" id="name" name="name" bind:value={name} placeholder="Enter your Name" 
+            class="w-full p-3 rounded-lg border text-black border-gray-300 dark:bg-zinc-800 dark:border-zinc-700 focus:ring-2 focus:ring-orange-500 outline-none transition-all" required />
+        </div>
 
+        <div class="flex flex-col gap-1">
+          <label for="email" class="font-semibold text-gray-700 dark:text-gray-300">Email Address</label>
+          <input type="email" id="email" name="_replyto" bind:value={email} placeholder="email@steamachines.com" 
+            class="w-full p-3 rounded-lg border text-black border-gray-300 dark:bg-zinc-800 dark:border-zinc-700 focus:ring-2 focus:ring-orange-500 outline-none transition-all" required />
+        </div>
+
+        <div class="flex flex-col gap-1"> 
+          <label for="message" class="font-semibold text-gray-700 dark:text-gray-300">Messages</label>
+          <textarea id="message" name="message" bind:value={message} rows="5" placeholder="Write your messages here...." 
+            class="w-full p-3 rounded-lg border text-black border-gray-300 dark:bg-zinc-800 dark:border-zinc-700 focus:ring-2 focus:ring-orange-500 outline-none transition-all" required></textarea>
+        </div>
+
+        <button type="submit" class="w-full py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-lg shadow-lg transform active:scale-[0.98] transition-all uppercase tracking-widest">
+          Send Messages
+        </button>
+        
+        {#if status}
+          <p class="text-center text-orange-500 font-medium animate-pulse">{status}</p>
+        {/if}
+      </form>
     </div>
 </div>

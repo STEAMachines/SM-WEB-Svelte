@@ -3,6 +3,8 @@
 
 	let mode = $state(`/light-mode-icon.png`);
 	let props = $props();
+	let logo = $state(`/SM-Logo-black.png`);
+	let bg = $state(`/navbar-blue-sm_1.png`);
 
 	function toggleDarkMode() {
 		if (mode === `/light-mode-icon.png`) {
@@ -12,19 +14,36 @@
 			mode = `/light-mode-icon.png`;
 			document.documentElement.classList.remove('dark');
 		}
+		if (logo === `/SM-Logo-black.png`) {
+			logo = `/SM-Logo.png`;
+			document.documentElement.classList.add('dark');
+		}
+		else {
+			logo = `/SM-Logo-black.png`;
+			document.documentElement.classList.remove('dark');
+		}
+		if (bg === `/navbar-blue-sm_1.png`) {
+			bg = `/navbar-orange-sm.png`;
+			document.docuemntElement.classList.add('dark');
+		}
+		else {
+			bg = `/navbar-blue-sm_1.png`;
+			document.docuemntElement.classList.remove('dark');
+		}
 	}
 
 </script>
 
 <header
 	class="header flex flex-row max-h-20 content-stretch p-5 rounded-b-lg static text-black dark:text-gray-600 bg-b dark:bg-c bg-[url('navbar-blue-sm_1.png')] bg-cover"
+	src={bg}
 >
 	<div class="absolute inset-0 z-0 opacity-80 pointer-events-none">	
 		</div>
 	<div class="z-10 bg-white p-3 rounded-2xl -mt-2.5 relative left-10 shadow-md flex items-center justify-center w-20 h-15">
         <a href="/" class="flex items-center justify-center w-full h-full">
             <img 
-                src="/SM-Logo-black.png" 
+                src={logo}
                 alt="Logo" 
                 class="dark:invert max-w-full max-h-full object-contain transition-transform duration-300 hover:scale-110" 
             />	
@@ -63,8 +82,8 @@
             </div>
 		</div>
 	</div>
-	<div class="my-auto max-h-20">
-		<button onclick={toggleDarkMode} aria-label="Toggle Dark Mode" class="mx-auto">
+	<div class="my-auto max-h-20 z-10 bg-white p-3 rounded-2xl -mt-2.5 relative left-0 shadow-md flex items-center justify-center w-20 h-15">
+		<button onclick={toggleDarkMode} aria-label="Toggle Dark Mode" class="mx-auto dark:invert max-w-full max-h-full object-contain transition-transform duration-300 hover:scale-110">
 			<img src={mode} alt="Toggle Dark Mode" class="h-10 w-10 object-scale-down" />
 		</button>
 	</div>

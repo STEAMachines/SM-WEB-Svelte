@@ -1,9 +1,9 @@
 <script>
     let carouselCounter = 0;
     let carousel = [
-        { id: 1, title: 'Slide 1', image: '/carousel/png.png' },
-        { id: 2, title: 'Slide 2', image: '/carousel/png.png' },
-        { id: 3, title: 'Slide 3', image: '/carousel/png.png' },
+        { id: 1, title: '2023-2024 CENTERSTAGE', image: '/STEAMachines-CENTERSTAGE.jpeg' },
+        { id: 2, title: '2024-2025 INTOTHEDEEP', image: '/STEAMachines-INTOTHEDEEP.jpeg' },
+        { id: 3, title: '2025 SUNMOR UGM', image: '/carousel/png.png' },
     ];
     let carouselLen = carousel.length;
 
@@ -11,7 +11,7 @@
         carouselCounter = (carouselCounter + 1) % carouselLen;
     }
 
-    function prev() {
+    function prev() {   
         carouselCounter = (carouselCounter - 1 + carouselLen) % carouselLen;
     }
 </script>
