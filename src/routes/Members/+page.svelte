@@ -22,7 +22,7 @@
             <img src="/ihsan.JPG" alt="" class="{imgClasses}">
             <div class="inner {innerClasses}">
                 <h2 class="{personNameClasses}">Ihsan</h2>
-                <p></p>
+                <p>I will rule the world! Mwahahaha! But in the meantime, I'll try my best to help the team.</p>
             </div>
         </div>
         <div class="card {cardClasses} bg-[url('/pitu-b.webp')] bg-cover bg-center">

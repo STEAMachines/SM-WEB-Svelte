@@ -41,12 +41,12 @@
 			href="/Members"
 			class="mx-auto text-xl hover:underline-offset-4">Members</a
 		>
-		<!-- <a aria-label="Stats" href="/stats" class="mx-auto text-xl hover:underline-offset-4"
+		<a aria-label="Stats" href="/stats" class="mx-auto text-xl hover:underline-offset-4"
 			>Stats</a
-		> -->
+		>
 		<a
 			aria-label="Contact Us"
-			href="/Members"
+			href="/Contact"
 			class="mx-auto text-xl hover:underline-offset-4">Contact Us</a
 		>
 		<div class="relative group mx-auto my-auto">

@@ -5,7 +5,7 @@
 	let { children } = $props();
 </script>
 
-<div class="app min-h-svh bg-a text-white dark:bg-d dark:text-gray-300">
+<div class="app min-h-svh bg-a text-white dark:bg-d dark:text-gray-300 overflow-hidden">
 	<Header/>
 
 	<main class="min-h-svh dark:text-gray-200">
