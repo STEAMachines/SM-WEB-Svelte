@@ -62,12 +62,17 @@
 		>
 		<!-- <a aria-label="Stats" href="/stats" class="mx-auto text-xl hover:underline-offset-4"
 			>Stats</a
-		> -->
+		> -->s
 		<a
 			aria-label="Contact Us"
 			href="/contact"
 			class="mx-auto text-xl hover:underline-offset-4">Contact Us</a
 		>
+		<!-- <a
+			aria-label="Stats"
+			href="/stats"
+			class="mx-auto text-xl hover:underline-offset-4">Stats</a
+		> -->
 		<div class="relative group mx-auto my-auto">
 			<button class="text-xl flex items-center gap-1 hover:underline-offset-4">
 				Open Resources
