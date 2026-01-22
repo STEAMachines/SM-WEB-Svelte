@@ -5,7 +5,7 @@
     <title>STEAMachines - About Us</title>
 </svelte:head>
 
-<div class="relative w-full flex flex-col text-black h-full">
+<div class="relative w-full flex flex-col text-black h-full mx-auto">
     <div id="leadImage" class="flex flex-col w-full h-lvh top-20">
         <img src="/team.jpg" alt="Team" class="w-full h-svh object-cover mask-b-from-85% mask-b-to-90% z-0 static">
         <div class="bg-black opacity-50 absolute inset-0 z-10 h-svh mask-b-from-85% mask-b-to-90%"></div>

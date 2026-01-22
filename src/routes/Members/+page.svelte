@@ -1,5 +1,5 @@
 <script>
- let cardClasses = 'bg-amber-600 rounded-lg shadow-lg w-full p-4 m-4 bg-b flex flex-row gap-4 min-w- dark:bg-c hover:scale-105 transition-transform duration-100'
+ let cardClasses = 'bg-amber-600 rounded-lg m-r-5 shadow-lg w-full p-4 m-4 bg-b flex flex-row gap-4 min-w- dark:bg-c hover:scale-105 transition-transform duration-100'
  let innerClasses = 'bg-b rounded-lg p-2 dark:bg-c'
  let imgClasses = 'w-30 h-45 rounded-lg'
  let personNameClasses = 'text-2xl font-bold mb-2'
@@ -11,7 +11,7 @@
 
 <section class="flex flex-col md:flex-row">
 <div id="left" class="w-full lg:w-1/2 p-5">
-        <div class="card {cardClasses} bg-[url('/akhdan-b.webp')] bg-cover bg-center">
+        <div class="card {cardClasses} bg-[url('/akhdan-b.jpg')] bg-cover bg-center">
             <img src="/akhdan.JPG" alt="" class="{imgClasses}">
             <div class="inner {innerClasses}">
                 <h2 class="{personNameClasses}">Akhdan</h2>
