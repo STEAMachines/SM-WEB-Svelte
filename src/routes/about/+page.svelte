@@ -5,26 +5,24 @@
     <title>STEAMachines - About Us</title>
 </svelte:head>
 
-<div class="relative w-full flex flex-col text-black h-full">
+<div class="relative w-full flex flex-col text-black h-full mx-auto">
     <div id="leadImage" class="flex flex-col w-full h-lvh top-20">
         <img src="/team.jpg" alt="Team" class="w-full h-svh object-cover mask-b-from-85% mask-b-to-90% z-0 static">
-        <div class="bg-black opacity-50 absolute inset-0 z-5 h-svh mask-b-from-85% mask-b-to-90%"></div>
-        <div class="absolute z-5 inset-20 gap-5 justify-center">
-            <h1 class="2xl:absolute text-white p-1 text-3xl 2xl:text-6xl font-semibold z-10 top-25 left-10 tracking-tight">About <br> STEAMachines</h1>
-            <p class="2xl:text-right 2xl:absolute text-white p-1 text-lg 2xl:text-xl font-semibold max-w-3/4 z-10 top-25 right-10">STEAMachines was founded in September 2021. 
-    Our team consists of all 11 male students and 1 team coach. STEAMachines is the first team created by Techno Natura Jogja because previously all teams were 
-    created and came from Techno Natura Depok, our alliance is the team from Depok, the R2045 team.<br><br>
-    
-    STEAMachines is a team created by the first generation at Techno Natura Jogja, even though we are the 2nd generation. 
-    The name STEAMachines also has meaning because the name has two separate words, namely steam and machines. 
-    Steam comes from steam education, which means STEAM, Technology, Engineering, Art, Mathematics. As for machines, 
-    it means the machines that are in and control the robots that we make. 
-    </p>
-        </div>
+        <div class="bg-black opacity-50 absolute inset-0 z-10 h-svh mask-b-from-85% mask-b-to-90%"></div>
+        <h1 class="absolute text-white p-1 text-6xl font-semibold z-10 top-25 left-10 tracking-tight">About <br> STEAMachines</h1>
+        <p class="text-right absolute text-white p-1 text-xl font-semibold z-10 top-25 right-10 tracking-tighter">STEAMachines was founded in September 2021. 
+Our team consists of all 11 male students and 1 team coach. STEAMachines is the first team created by <br> Techno Natura Jogja because previously all teams were 
+created and came from Techno Natura Depok, our alliance is the team from Depok, the R2045 team.<br><br>
+
+STEAMachines is a team created by the first generation at Techno Natura Jogja, even though we are the 2nd generation. 
+The name STEAMachines also has <br> meaning because the name has two separate words, namely steam and machines. 
+Steam comes from steam education, which means STEAM, Technology, <br> Engineering, Art, Mathematics. As for machines, 
+it means the machines that are in and control the robots that we make. 
+</p>
     </div>
 
     <div class="p-6 md:p-10 w-full font-sans space-y-8">
-        <div class="ma  x-w-6xl mx-auto flex flex-col md:flex-row gap-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-6">
             
             <div class="bg-white border-[4px] border-b rounded-[2rem] p-4 flex items-center justify-center w-full md:w-1/4 aspect-square shadow-lg">
                 <img src="trex-faces.png" alt="Team Logo" class="w-full h-auto object-contain"/>

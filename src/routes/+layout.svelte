@@ -5,7 +5,7 @@
 	let { children } = $props();
 </script>
 
-<div class="app min-h-svh bg-a text-white dark:bg-d dark:text-gray-300 overflow-hidden">
+<div class="app min-h-svh bg-a text-white dark:bg-d dark:text-gray-300">
 	<Header/>
 
 	<main class="min-h-svh dark:text-gray-200">
@@ -18,9 +18,9 @@
 			
 			<div class="flex flex-col gap-3">
 				<a href="/about" class="font-bold hover:text-blue-400">About Us</a>
-				<a href="/Members" class="font-bold hover:text-blue-400">Members</a>
-				<!-- <a href="/resources" class="font-bold hover:text-blue-400">Open Resources</a> -->
-				<a href="/Contact" class="font-bold hover:text-blue-400">Contact Us</a>
+				<a href="/members" class="font-bold hover:text-blue-400">Members</a>
+				<a href="/resources" class="font-bold hover:text-blue-400">Open Resources</a>
+				<a href="/contact" class="font-bold hover:text-blue-400">Contact Us</a>
 			</div>
 			<div class="flex justify-start ">
 				<img src="/SM-Logo.png" alt="Logo" class="h-16 object-contain" />
